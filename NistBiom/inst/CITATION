@@ -1,0 +1,5 @@
+
+citEntry(entry="Unpublished",
+         title = "NistBiom R Package for analyzing and plotting DET curves",
+         author = personList(as.person("George W. Quinn")),
+         url = "https://github.com/usnistgov")

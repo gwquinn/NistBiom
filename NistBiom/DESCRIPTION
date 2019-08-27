@@ -1,0 +1,15 @@
+Package: NistBiom
+Type: Package
+Title: Utilities for analyzing and displaying biometric DET curves.
+Version: 0.1
+Date: 2019-06-29
+Author: George W. Quinn
+Maintainer: G. W. Quinn <gw@nist.gov>
+License: Public domain.
+Depends: ggplot2, data.table, grid
+# -GWImports: ggplot2, data.table, grid
+NeedsCompilation: no
+URL: https://github.com/gwquinn
+Packaged: 2019-05-10 20:41:44 UTC; gwquinn
+Description: Basic tools for creating, analyzing, and plotting DET curves. This package stems from work at NIST (National Institute of Standards and Technology) pertaining to the evaluation of biometric technology.
+RoxygenNote: 6.1.1

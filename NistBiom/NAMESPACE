@@ -1,0 +1,25 @@
+
+# Dependencies
+import(data.table)
+import(ggplot2)
+
+# Visuals
+export(DET.theme)
+export(log.scale)
+export(log.ticks)
+export(plot.DET)
+export(annotate.DET)
+
+# Data
+export(colors.15)
+
+# DET manipulation
+export(make.DET)
+export(get.FMR)
+export(get.FNIR)
+export(get.FNMR)
+export(get.FPIR)
+export(get.threshold)
+
+# Miscellaneous
+export(scientific.notation)
