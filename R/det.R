@@ -79,7 +79,7 @@ make.DET <- function(mated.scores, nonmated.scores, FMR.range=c(1e-8, 1), num.po
       FMR.range <- log10(FMR.range)
       quantiles <- 10^seq(FMR.range[1], FMR.range[2], length=num.points)
       
-      thresholds <- quantile(nonmated.scores, quantiles, type=1)
+      thresholds <- quantile(nonmated.scores, 1 - quantiles, type=1)
 
       # Restrict to unique thresholds and cap off ends.
       thresholds <- unique(c(-Inf, sort(thresholds), Inf))
